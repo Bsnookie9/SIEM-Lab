@@ -36,4 +36,10 @@ UI, and finding certain things can be a little challenging. However, I can point
 | where sourcehost != ""
 | summarize event_count=count() by latitude, longitude, sourcehost, label, destination, country`
 
+* Here are the settings for my map:  
+
+![unnamed (1)](https://github.com/Bsnookie9/SIEM-Lab/assets/106827110/3b73dfe7-6eb8-45d0-a8fe-8aa000c5ddb8)
+![unnamed (2)](https://github.com/Bsnookie9/SIEM-Lab/assets/106827110/d8cfa728-7477-458d-8334-c03a9200648a)
+
+
 Everything else should be good to go when completing this SIEM Lab
